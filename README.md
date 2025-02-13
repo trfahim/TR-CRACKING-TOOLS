@@ -38,7 +38,18 @@
 - File Handling (open, with) (for saving password lists)
 
 ## 🧿 Installation for Termux
-- ` apt update && apt upgrade `
+- ` pkg update && apt upgrade `
+- ` pkg install git `
+- ` pkg install python `
+- ` pip install pyfiglet `
+- ` pip install colorama `
+- ` pip install random `
+- ` pip install string `
+- ` git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git `
+- ` cd TR-CRACKING-TOOL `
+- ` pip install -r requirements.txt `
+- ` python tr_crack_tools.py `
+## 🧿 Installation for Linux
 - ` apt install git `
 - ` apt install python `
 - ` pip install pyfiglet `
@@ -49,4 +60,24 @@
 - ` cd TR-CRACKING-TOOL `
 - ` pip install -r requirements.txt `
 - ` python tr_crack_tools.py `
+## 🧿 Installation for Windows
+- ` pip install git `
+- ` pip install python `
+- ` pip install pyfiglet `
+- ` pip install colorama `
+- ` pip install random `
+- ` pip install string `
+- ` git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git `
+- ` cd TR-CRACKING-TOOL `
+- ` pip install -r requirements.txt `
+- ` python tr_crack_tools.py `
 
+
+## Disclaimer ⚠️
+
+- This tool is developed for educational and ethical hacking purposes only. Unauthorized use of this tool for illegal activities is strictly prohibited. The author is not responsible for any misuse.
+
+## Author
+
+### Developed by TR FAHIM
+### Happy Hacking! 🚀
