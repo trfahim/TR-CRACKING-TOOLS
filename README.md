@@ -37,5 +37,16 @@
 
 - File Handling (open, with) (for saving password lists)
 
-## 🧿 Installation
+## 🧿 Installation for Termux
+` apt update && apt upgrade `
+` apt install git `
+` apt install python `
+` pip install pyfiglet `
+` pip install colorama `
+` pip install random `
+` pip install string `
 ` git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git `
+` cd TR-CRACKING-TOOL `
+` pip install -r requirements.txt `
+` python tr_crack_tools.py `
+
