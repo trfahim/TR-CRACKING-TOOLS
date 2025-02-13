@@ -21,7 +21,7 @@
 
 ## Technologies Used
 
-- This project is developed using Python and the following libraries:
+### This project is developed using Python and the following libraries:
 
 - pyfiglet (for banner styling)
 
