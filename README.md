@@ -38,4 +38,4 @@
 - File Handling (open, with) (for saving password lists)
 
 ## 🧿 Installation
-- `git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git
+` git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git `
