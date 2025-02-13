@@ -1,7 +1,7 @@
 # TR CRACKING TOOL
 
 ## Overview
-### TR CRACKING TOOL is a Python-based password generation tool designed to assist in brute-force attacks for ethical hacking and security testing. This tool can generate passwords based on names, mobile numbers, and PIN codes ranging from 3 to 8 digits. Additionally, it can generate massive password combinations, including 90 million and 10 million password variations.
+### TR CRACKING TOOL is a Python-based password generation tool designed to assist in brute-force attacks for ethical hacking and security testing. This tool can generate passwords based on names, mobile numbers, and PIN codes ranging from 3 to 8 digits. Additionally, it can generate massive password combinations, including 10 million to 90 million password variations.
 
 # Features
 
