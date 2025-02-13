@@ -355,7 +355,7 @@ def mobile_num_passlist(input_num):
 
 def pin_generate_3digit(pin_digit):
     print(Fore.LIGHTGREEN_EX+"\nIt tooks take times depends on your device capability")
-    print(Fore.BLUE+"Wait Sometimes..............\n")
+    print(Fore.BLUE+"Wait Sometimes Generate 90 Million password.....................\n")
     file_name = (f"{pin_digit}_Digit_Password_List.txt")
     with open(file_name, "w") as pin_list:
         for pass_list in range(1000):
