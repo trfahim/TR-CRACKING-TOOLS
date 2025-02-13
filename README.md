@@ -73,7 +73,7 @@
 - ` python tr_crack_tools.py `
 
 
-## Disclaimer ⚠️
+## ⚠️ Disclaimer 
 
 - This tool is developed for educational and ethical hacking purposes only. Unauthorized use of this tool for illegal activities is strictly prohibited. The author is not responsible for any misuse.
 
