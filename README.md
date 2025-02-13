@@ -36,3 +36,6 @@
 - Functions (def) (for modular programming)
 
 - File Handling (open, with) (for saving password lists)
+
+## 🧿 Installation
+- `git clone https://github.com/trfahim/TR-CRACKING-TOOLS.git
