@@ -7,11 +7,11 @@
 
 - Generates password lists using:
 
--- Names
+- Names
 
--- Mobile numbers
+- Mobile numbers
 
--- PIN codes (3, 4, 5, 6, 7, 8-digit combinations)
+- PIN codes (3, 4, 5, 6, 7, 8-digit combinations)
 
 - Saves generated passwords to a file for future use.
 
@@ -31,8 +31,8 @@
 
 - colorama (Fore) (for colored text output)
 
-Loops (for, if, elif, else) (for logic control)
+- Loops (for, if, elif, else) (for logic control)
 
-Functions (def) (for modular programming)
+- Functions (def) (for modular programming)
 
-File Handling (open, with) (for saving password lists)
+- File Handling (open, with) (for saving password lists)
