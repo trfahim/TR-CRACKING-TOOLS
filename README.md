@@ -4,7 +4,7 @@
 ### TR CRACKING TOOL is a Python-based password generation tool designed to assist in brute-force attacks for ethical hacking and security testing. This tool can generate passwords based on names, mobile numbers, and PIN codes ranging from 3 to 8 digits. Additionally, it can generate massive password combinations, including 10 million to 90 million password variations.
 
 
-### ➡️ New Feature Add ZIP/RAR/TAR Files Password Cracker [4]
+### `➡️ New Feature Add ZIP/RAR/TAR Files Password Cracker [4]`
 ## 🧿 Features
 
 - Generates password lists using:
