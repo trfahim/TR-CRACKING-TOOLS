@@ -1,5 +1,15 @@
 random
 string
 pyfiglet
-colorama
-requestes
+requests
+colorama 
+zipfile
+itertools
+threading
+tkinter
+pyzipper
+pikepdf
+rarfile
+py7zr
+patoolib
+lzma 
