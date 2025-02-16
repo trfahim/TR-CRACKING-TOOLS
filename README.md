@@ -7,7 +7,7 @@
 ### `➡️ Bruteforce Password Generator`
 ### `➡️ Mobile Number Passlist Generator`
 ### `➡️ Pin Code Generator`
-### `➡️ New Feature Add ZIP Files Password Cracker`
+### `➡️ ZIP File Password Cracker`
 ### `➡️ Short Url`
 
 ## 🧿 Technologies Used
