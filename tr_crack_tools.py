@@ -2,12 +2,14 @@ import random
 import string
 import pyfiglet
 import time,os
+import requests
 from colorama import Fore
 
 def home_menu():
     print(Fore.CYAN+f"\n[1] Bruteforce Password Generator\n")
     print(Fore.LIGHTBLUE_EX+"[2] Mobile Number Passlist Generator\n")
     print(Fore.GREEN+"[3] Pin Code Generator\n")
+    print(Fore.BLUE+"[4] Short Url\n")
     print(Fore.RED+"[0] Exit")
 
 def back_home():
@@ -31,7 +33,10 @@ def banner_3():
     print(Fore.BLUE+text)
 def banner_4():
     text = pyfiglet.figlet_format("PIN GENERATOR")
-    print(Fore.BLUE+text)   
+    print(Fore.BLUE+text)  
+def banner_5():
+    text = pyfiglet.figlet_format("SHORT URL") 
+    print(Fore.BLUE+text) 
 def cl():
     if os.name == "nt":
         os.system("cls")
@@ -340,8 +345,8 @@ def bruteforce_password(first_name, middle_name, last_name,
     return passwords
 
 def mobile_num_passlist(input_num):
-    print(Fore.LIGHTGREEN_EX+"\nIt tooks take times depends on your device capability")
-    print(Fore.BLUE+"Wait Sometimes..............\n")
+    print(Fore.LIGHTGREEN_EX+"\nIt tooks take times depends on your device capability.")
+    print(Fore.BLUE+"Wait Sometimes Generate 90M password.....................\n")
     file_name = (f"{input_num}_Passlist.txt")
     
     with open(file_name, "w") as passlist:
@@ -355,7 +360,7 @@ def mobile_num_passlist(input_num):
 
 def pin_generate_3digit(pin_digit):
     print(Fore.LIGHTGREEN_EX+"\nIt tooks take times depends on your device capability")
-    print(Fore.BLUE+"Wait Sometimes Generate 90 Million password.....................\n")
+    print(Fore.BLUE+"Wait Sometimes..............\n")
     file_name = (f"{pin_digit}_Digit_Password_List.txt")
     with open(file_name, "w") as pin_list:
         for pass_list in range(1000):
@@ -434,6 +439,16 @@ def save_to_file(passwords, filename="Custom_Passwordlist.txt"):
     print(Fore.RED+"-"*60)       
     print(Fore.YELLOW+f"\nPassword list saved to {Fore.WHITE}'{filename}'\n")
     print(Fore.RED+"-"*60)
+
+def url_generate(input_url):
+    url_api = (f"http://tinyurl.com/api-create.php?url={input_url}")
+    response = requests.get(f"{url_api}")
+    if response.status_code == 200:
+        return response.text
+    else:
+        print(Fore.RED+"\nURL NOT FOUND !!")
+        time.sleep(3)
+        main()
 
 def main():
     cl()
@@ -541,7 +556,19 @@ def main():
     elif home_select == "0":
         print("\nEXIT DONE \n")
         os._exit(0) 
+    
+    elif home_select == "4":
+        cl()
+        banner_5()
+        input_url = input(Fore.MAGENTA+f"\nEnter Long Url >>> {Fore.LIGHTWHITE_EX}")   
+        short_url = url_generate(input_url)
+        time.sleep(2)
+        cl()
+        print(Fore.WHITE+"-"*50)
+        print(Fore.LIGHTYELLOW_EX+f"Short Url: {Fore.LIGHTCYAN_EX}{short_url}")
+        print(Fore.WHITE+"-"*50)
+        back_home()
         
-                      
+                
 if __name__ == "__main__":
     main()
