@@ -2,14 +2,13 @@ random
 string
 pyfiglet
 requests
-colorama 
-zipfile
+colorama
+zipfile36; python_version < "3.7"
 itertools
-threading
-tkinter
+tk
 pyzipper
 pikepdf
 rarfile
 py7zr
-patoolib
-lzma 
+patool
+lzma
