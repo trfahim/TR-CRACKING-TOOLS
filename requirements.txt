@@ -2,3 +2,4 @@ random
 string
 pyfiglet
 colorama
+requestes
